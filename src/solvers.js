@@ -81,11 +81,8 @@ window.findNQueensSolution = function(n) {
     } 
     //loop all elements in rows in solution array
     for (var i = 0; i < n; i++) {
-      if (row === 0 && i === 0) {
-        board.togglePiece(row, i + 1);
-      } else {
         board.togglePiece(row, i);
-      }
+      
       //if there is conflict
       if (board.hasRowConflictAt(row) || 
           board.hasColConflictAt(i) || 
@@ -95,10 +92,9 @@ window.findNQueensSolution = function(n) {
         board.togglePiece(row, i);
       } else {
         findSolution(row + 1);
+        //if a valid solution was found
         if (solution.length) {
           return;
-        } else if (row === 0 && i === 0) {
-          board.togglePiece(row, i + 1);
         } else {
           board.togglePiece(row, i);
         }
