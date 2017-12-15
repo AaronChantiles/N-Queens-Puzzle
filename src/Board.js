@@ -71,7 +71,7 @@
 
  */
     /*=========================================================================
-    =                 TODO: fill in these Helper Functions                    =
+    =                 TODO: Build these Helper Functions                    =
     =========================================================================*/
 
     // ROWS - run from left to right
