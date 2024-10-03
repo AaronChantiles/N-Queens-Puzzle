@@ -1,2 +1,9 @@
 # N-Queens-Puzzle
 The N queens puzzle is the problem of placing N chess queens on a N×N chessboard so that no two queens threaten each other. Thus, a solution requires that no two queens share the same row, column, or diagonal. The problem can be quite computationally expensive, as there are 4,426,165,368 possible arrangements of eight queens on an 8×8 board, but only 92 solutions. This project uses recursive algorithms to solve both the N-Queens puzzle as well as N-Rooks. Check out solvers.js and board.js to see the code.
+
+![image](https://github.com/user-attachments/assets/36791a30-ff44-4346-9ffe-f50bc8d73b4c)
+
+
+![image](https://github.com/user-attachments/assets/a14ac955-ec81-4eed-8453-d49813e32fb9)
+
+
